@@ -23,7 +23,7 @@ body {
     border: 2px solid black;
     background-color: white;
     max-width: 360px;
-    padding: 20px;
+    padding: 1.5em;
     border-radius: 15px;
     text-align: left;
 }
