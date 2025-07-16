@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif;
+}
+
+body {
+    background-color: #f4d04eff;
+}
+
+.main-cont {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont {
+    box-shadow: 10px 12px 0 black;
+    border: 2px solid black;
+    background-color: white;
+    max-width: 360px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: left;
+}
+
+.img-sec img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+button {
+    background-color: #f4d04eff;
+    padding: 5px 10px;
+    margin: 2em 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: 900;
+}
+
+.date {
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.text-sec a {
+    text-decoration: none;
+    color: black;
+}
+
+.text-sec h1 {
+    font-size: 1.5em;   
+    font-weight: 900; 
+    margin-bottom: 1em;
+}
+
+.text-sec .desc {
+    font-size: 1em;
+}
+
+.author-sec {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 2em;
+}
+
+.author-sec img {
+    width: 40px;
+}
+
+.author-sec p {
+    font-weight: 900;
+}
+
+.text-sec a:hover {
+    color: #f4d04eff;
+}
